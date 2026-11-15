@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AvtoMarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🚗 AvtoMarket</div>
+
+    <nav>
+      <a href="#home">Bosh sahifa</a>
+      <a href="#cars">Mashinalar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Orzuingizdagi <span>mashinani</span> toping</h1>
+      <p>
+        Zamonaviy va ishonchli avtomobillarni qulay narxlarda toping.
+      </p>
+      <a href="#cars" class="btn">Mashinalarni ko‘rish</a>
+    </div>
+  </section>
+
+  <section class="cars-section" id="cars">
+
+    <div class="title">
+      <h2>Mashinalar katalogi</h2>
+      <p>O‘zingizga mos avtomobilni tanlang</p>
+    </div>
+
+    <div class="filters">
+      <input
+        type="text"
+        id="search"
+        placeholder="Mashina qidirish..."
+      >
+
+      <select id="brand">
+        <option value="all">Barcha markalar</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Toyota">Toyota</option>
+      </select>
+    </div>
+
+    <div class="cars">
+
+      <div class="car" data-brand="BMW" data-name="BMW M5">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80">
+
+        <div class="car-info">
+          <h3>BMW M5</h3>
+          <p>2024 • Avtomat • Benzin</p>
+          <div class="price">$95,000</div>
+          <button class="btn buy-btn">Batafsil</button>
+        </div>
+      </div>
+
+      <div class="car" data-brand="Mercedes" data-name="Mercedes AMG GT">
+        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80">
+
+        <div class="car-info">
+          <h3>Mercedes AMG GT</h3>
+          <p>2024 • Avtomat • Benzin</p>
+          <div class="price">$120,000</div>
+          <button class="btn buy-btn">Batafsil</button>
+        </div>
+      </div>
+
+      <div class="car" data-brand="Chevrolet" data-name="Chevrolet Malibu">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80">
+
+        <div class="car-info">
+          <h3>Chevrolet Malibu</h3>
+          <p>2023 • Avtomat • Benzin</p>
+          <div class="price">$28,000</div>
+          <button class="btn buy-btn">Batafsil</button>
+        </div>
+      </div>
+
+      <div class="car" data-brand="Toyota" data-name="Toyota Camry">
+        <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80">
+
+        <div class="car-info">
+          <h3>Toyota Camry</h3>
+          <p>2024 • Avtomat • Gibrid</p>
+          <div class="price">$35,000</div>
+          <button class="btn buy-btn">Batafsil</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Biz bilan bog‘laning</h2>
+    <p>Mashina haqida ma’lumot olish uchun murojaat qiling.</p>
+
+    <a class="btn" href="tel:+998901234567">
+      📞 +998 90 123 45 67
+    </a>
+  </section>
+
+  <footer>
+    © 2026 AvtoMarket
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
